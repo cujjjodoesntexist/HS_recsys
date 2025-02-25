@@ -118,3 +118,5 @@ USE_TZ = False
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [STATIC_DIR, ]
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
