@@ -37,7 +37,7 @@ def index(request):
 
 def handle_pagination(movies, page_number):
 
-    paginate_by = 6
+    paginate_by = 18
 
     paginator = Paginator(movies, paginate_by)
 
